@@ -409,23 +409,15 @@ img.padding_right_10 {
 /* boton inicio start */
 .botonInicio{
     margin-top:16px;
- }
-  
-.contenedorBtn{
     position: fixed;
-    width:40px;
-    height:40px;
+    width:50px;
+    height:50px;
     bottom:100px;
-    right:30px;
-    background-color:#f2f8f5;
-    border: 2px solid #1F618D;
-    border-radius:50px;
-    text-align:center;
-    box-shadow: 0px 1px 10px rgba(0,0,0,0,3);
-    z-index:100;
+    right:50px;
+    
 }
   
-.contenedorBtn:hover{
+.botonInicio:hover{
     transform: scale(1.5);
 }
 /* boton inicio end */
