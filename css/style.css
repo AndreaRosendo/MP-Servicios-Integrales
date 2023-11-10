@@ -33,6 +33,10 @@ body {
      overflow-x: hidden;
 }
 
+.contenedorBtn{
+     display: none;
+}
+
 a {
      color: #1f1f1f;
      text-decoration: none !important;
@@ -138,8 +142,6 @@ a,
      -o-transition: all .3s ease-in-out;
      transition: all .3s ease-in-out;
 }
-
-
 
 :focus {
      outline: 0;
@@ -332,7 +334,7 @@ img.padding_right_10 {
     width: 100%;
     float: left;
     font-weight: bold;
-    font-size: 76px;
+    font-size: 66px;
     color: #0c426e;
     line-height: 90px;
 }
@@ -408,13 +410,13 @@ img.padding_right_10 {
 
 /* boton inicio start */
 .botonInicio{
-    margin-top:16px;
+    margin-top:3px;
     
  }
   
 .contenedorBtn{
     position: fixed;
-    width:100px;
+    width:95px;
     height:auto;
     bottom:100px;
     right:30px;
