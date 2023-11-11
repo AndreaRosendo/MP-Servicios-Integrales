@@ -33,11 +33,7 @@
       <script src="http://code.jquery.com/jquery-latest.js"></script>
       <script src="./js/botonArriba.js"></script>
       
-   
-	<!-- Start WOWSlider.com HEAD section --> <!-- add to the <head> of your page -->
-	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
-	<script type="text/javascript" src="engine0/jquery.js"></script>
-	<!-- End WOWSlider.com HEAD section --></head>
+   </head>
    <body>
 
       <!--header section start -->
@@ -60,7 +56,7 @@
                         <a href="#proporcionamos" onclick="closeNav()">Presentación</a>
                         <a href="#servicios" onclick="closeNav()">Nuestros Servicios</a>
                         <a href="#elegirnos" onclick="closeNav()">Porque Elegirnos</a>
-                        <a href="#wowslider-container0" onclick="closeNav()">Galería de Fotos</a>
+                        <a href="#galeria" onclick="closeNav()">Galería de Fotos</a>
                      </div>
                   </div>
                   <span class="toggle_icon" onclick="openNav()"><img src="images/toggle-icon.png" class="toggle_menu"></span>
@@ -190,45 +186,14 @@
          <br><br><br>
       </div>
       <!-- services section end -->
-          
+      <!-- Galeria section start -->
       
-	  <!-- Start WOWSlider.com BODY section --> <!-- add to the <body> of your page -->
-	  <div id="wowslider-container0">
-	     <div class="ws_images"><ul>
-	      	<li><img src="data0/images/foto20.jpg" alt="" title="" id="wows0_0"/></li>
-	      	<li><img src="data0/images/foto21.jpg" alt="foto21" title="foto21" id="wows0_1"/></li>
-	      	<li><img src="data0/images/foto22.jpg" alt="foto22" title="foto22" id="wows0_2"/></li>
-      		<li><img src="data0/images/foto23.jpg" alt="foto23" title="foto23" id="wows0_3"/></li>
-      		<li><img src="data0/images/foto1.jpg" alt="foto1" title="foto1" id="wows0_4"/></li>
-      		<li><img src="data0/images/foto2.jpg" alt="foto2" title="foto2" id="wows0_5"/></li>
-      		<li><img src="data0/images/foto3.jpg" alt="foto3" title="foto3" id="wows0_6"/></li>
-	      	<li><img src="data0/images/foto4.jpg" alt="foto4" title="foto4" id="wows0_7"/></li>
-	      	<li><img src="data0/images/foto5.jpg" alt="foto5" title="foto5" id="wows0_8"/></li>
-	      	<li><img src="data0/images/foto6.jpg" alt="foto6" title="foto6" id="wows0_9"/></li>
-	      	<li><img src="data0/images/foto7.jpg" alt="foto7" title="foto7" id="wows0_10"/></li>
-      		<li><img src="data0/images/foto8.jpg" alt="foto8" title="foto8" id="wows0_11"/></li>
-      		<li><img src="data0/images/foto9.jpg" alt="foto9" title="foto9" id="wows0_12"/></li>
-      		<li><img src="data0/images/foto10.jpg" alt="foto10" title="foto10" id="wows0_13"/></li>
-      		<li><img src="data0/images/foto11.jpg" alt="foto11" title="foto11" id="wows0_14"/></li>
-	      	<li><img src="data0/images/foto12.jpg" alt="foto12" title="foto12" id="wows0_15"/></li>
-	      	<li><img src="data0/images/foto13.jpg" alt="foto13" title="foto13" id="wows0_16"/></li>
-	      	<li><img src="data0/images/foto14.jpg" alt="foto14" title="foto14" id="wows0_17"/></li>
-	      	<li><img src="data0/images/foto15.jpg" alt="foto15" title="foto15" id="wows0_18"/></li>
-	      	<li><img src="data0/images/foto16.jpg" alt="foto16" title="foto16" id="wows0_19"/></li>
-	      	<li><img src="data0/images/foto17.jpg" alt="foto17" title="foto17" id="wows0_20"/></li>
-	      	<li><a href="http://wowslider.net"><img src="data0/images/foto18.jpg" alt="html5 slideshow" title="foto18" id="wows0_21"/></a></li>
-	      	<li><img src="data0/images/foto19.jpg" alt="foto19" title="foto19" id="wows0_22"/></li>
-	         </ul>
-        </div>
-        <div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">jquery slider</a> by WOWSlider.com v9.0</div>
-        <div class="ws_shadow"></div>
-	  </div>	
-	  <script type="text/javascript" src="engine0/wowslider.js"></script>
-	  <script type="text/javascript" src="engine0/script.js"></script>
-	  <!-- End WOWSlider.com BODY section --><div class="choose_section layout_padding" id="elegirnos">
-         
+      <br><br><br>
+      <!-- Galeria section end -->
+
       <!-- choose section start -->
-      <div class="container">
+      <div class="choose_section layout_padding" id="elegirnos">
+         <div class="container">
             <h1 class="services_taital">Porqué <span style="color: #0c426e">Elergirnos?</span></h1>
             <div class="choose_section_2 layout_padding">
                <div class="row">
