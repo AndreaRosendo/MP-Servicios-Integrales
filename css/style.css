@@ -372,11 +372,6 @@ img.padding_right_10 {
     background-color: #0c426e;
 }
 
-.formularioContacto{
-   
-}
-
-
 #main_slider a.carousel-control-prev {
     position: absolute;
     left: 1137px;
@@ -411,15 +406,16 @@ img.padding_right_10 {
 /* boton inicio start */
 .botonInicio{
     margin-top:3px;
-    
+    width: 60px;
+    height: auto;
  }
   
 .contenedorBtn{
     position: fixed;
-    width:95px;
-    height:auto;
-    bottom:100px;
-    right:30px;
+    width:70px;
+    height:70px;
+    bottom:65px;
+    right:20px;
     background-color:#f2f8f5;
     border: 2px solid #1F618D;
     border-radius:50px;
