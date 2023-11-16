@@ -41,6 +41,7 @@ body {
  }
   
 .contenedorBtn{
+    display:none;
     width:70px;
     height:70px;
     bottom:20px;
@@ -57,10 +58,6 @@ body {
   
 .contenedorBtn:hover{
     transform: scale(1.5);
-}
-
-.noMostrarBoton{
-    display:none;
 }
 /* boton inicio end */
 a {
